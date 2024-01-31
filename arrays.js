@@ -1,5 +1,5 @@
 // Accessing Elements
-let cities = ['New York', 'Beijing','Nairobi'];
+let cities = ['New York', 'Beijing', 'Nairobi'];
 cities[0];
 
 listitem = cities[0]
@@ -13,4 +13,3 @@ console.log(seasons);
 //Arrays 
 let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn Kubernetes'];
 
-//Arrays Edited Practice

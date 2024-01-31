@@ -33,3 +33,31 @@ let cities ['New York', 'Beijing','Nairobi'];
 - You can access elements inside an array using an index
 - After having access to an element in an array, its value can be updated
 - let seasons = ['Winter', 'Spring', 'Summer', 'Fall'];
+
+
+**JS Arrays [1]**
+- Variables declared with let can be reassigned
+- Variables declared with the const keyword cannot be reassigned
+- Elements in an array declared with const remain mutable
+- We can change contents of a const array but cannot reassign a new array or value 
+
+**The .length property** 
+- We can list arrays in length and it'll return the number of items in the array
+- We use dot notation, chaining a period with the property name to access the length property of the newYearsResolutions array
+- 2 would be logged to the console as newYearsResolution has two elements
+
+**The .push() Method**
+- These JavaScript methods are called arrays to make common tasks like adding and removing elements more straightforward
+- One method push allows us to add items to the end of an array
+- We access the push method by using dot notation
+- We make it act as a function
+- .push() can take a single argument or multiple arguments seperated by commas
+- .push() changes or mutates itemTracker
+- .push() is a destructive array method 
+
+**The .pop() Method**
+- Another array method is .pop() which removes the last item of an array
+- Pop array does not take any arguments
+- Returns the value of the last element
+- pop mutates the initial array 
+- you remove the last element by using the .pop() method 
