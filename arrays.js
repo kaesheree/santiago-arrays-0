@@ -1,3 +1,6 @@
+
+//Array lesson 1/30/24
+
 // Accessing Elements
 let cities = ['New York', 'Beijing', 'Nairobi'];
 cities[0];
