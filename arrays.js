@@ -13,6 +13,18 @@ let seasons = ['Winter', 'Spring', 'Summer', 'Fall'];
 seasons[0] = 'Autumn';
 console.log(seasons);
 
-//Arrays 
-let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn Kubernetes'];
 
+function range(start, end, step = 1) {
+    return Array.from(
+      { length: (end - start) / step + 1 },
+      (value, index) => start + index * step
+    );
+  
+  }
+  
+  function sum(array) {
+    let numberOrZero = x => isNaN(x) ? 0 : x;
+    return array.reduce((total, value) => numberOrZero(total) + numberOrZero(value));
+  }
+  
+  console.log(sum(range(1, 134217719)));
